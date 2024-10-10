@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-10T11:09:13 IST" name="Default suite" finished-at="2024-10-10T11:09:55 IST" duration-ms="41874">
+    <groups>
+      <group name="Smoke">
+        <method signature="E2ECheckoutTest.verifyNewUserRegistersAndCheckoutProduct()[pri:0, instance:com.demoshop.test.E2ECheckoutTest@333291e3]" name="verifyNewUserRegistersAndCheckoutProduct" class="com.demoshop.test.E2ECheckoutTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-10-10T11:09:13 IST" name="Default test" finished-at="2024-10-10T11:09:55 IST" duration-ms="41874">
+      <class name="com.demoshop.test.E2ECheckoutTest">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:com.demoshop.test.E2ECheckoutTest@333291e3]" started-at="2024-10-10T11:09:13 IST" name="initDriver" finished-at="2024-10-10T11:09:22 IST" duration-ms="8970" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="verifyNewUserRegistersAndCheckoutProduct()[pri:0, instance:com.demoshop.test.E2ECheckoutTest@333291e3]" started-at="2024-10-10T11:09:22 IST" name="verifyNewUserRegistersAndCheckoutProduct" finished-at="2024-10-10T11:09:54 IST" duration-ms="32322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserRegistersAndCheckoutProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoshop.test.E2ECheckoutTest@333291e3]" started-at="2024-10-10T11:09:54 IST" name="tearDown" finished-at="2024-10-10T11:09:55 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoshop.test.E2ECheckoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
