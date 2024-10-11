@@ -17,6 +17,8 @@ public class CartTest extends BaseTest{
 	     String actualProduct= cartPage.getProductTitle();
 	Assert.assertEquals(prop.getProperty("expectedProduct"), actualProduct, "Product does not match");
 			cartPage.addProductToCart();
+			String actualText=cartPage.getConfirmationMsg();
+		    Assert.assertEquals(prop.getProperty("expectedText"), actualText, "Message does not match");
 	
 		
 	}

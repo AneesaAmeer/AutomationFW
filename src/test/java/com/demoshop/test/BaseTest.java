@@ -17,6 +17,7 @@ import com.demoshop.pageObjects.CartPage;
 import com.demoshop.pageObjects.LoginPage;
 import com.demoshop.pageObjects.ProductPage;
 import com.demoshop.pageObjects.RegisterPage;
+import com.demoshop.pageObjects.SortView;
 import com.demoshop.utils.TestProperties;
 
 public class BaseTest {
@@ -63,13 +64,14 @@ public class BaseTest {
 	public RegisterPage registerPage;
 	public  ProductPage productPage;
 	public CartPage cartPage;
-	
+	public SortView sortView;
 	
 	public void initPages() {
 		loginPage= new LoginPage(driver);
 	    registerPage = new RegisterPage(driver);
 	    productPage = new ProductPage(driver);
 	    cartPage = new CartPage(driver);
+	    sortView= new SortView(driver);
 	}
 	
 	@AfterMethod(alwaysRun=true)
