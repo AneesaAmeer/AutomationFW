@@ -14,7 +14,7 @@ import com.demoshop.utils.PageActions;
 public class SortView extends PageActions{
 	
 	private WebDriver driver;
-	WebElement shop;
+
 		
 		public SortView(WebDriver driver) {
 			super(driver);
@@ -54,6 +54,12 @@ public class SortView extends PageActions{
 		 public void selectListViewMode() {
 		        Select dropdown = new Select(viewModeDropdown);
 		        dropdown.selectByVisibleText("List");
+		    }
+		 
+		 public String getListViewMode() {
+		        Select dropdown = new Select(viewModeDropdown);
+		        return dropdown.getFirstSelectedOption().getText();
+		        
 		    }
 		 
 		 public List<String> getBookTitles() {

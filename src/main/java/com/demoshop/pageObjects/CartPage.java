@@ -9,7 +9,7 @@ import com.demoshop.utils.WaitUtils;
 
 public class CartPage extends PageActions{
 private WebDriver driver;
-WebElement shop;
+//WebElement shop;
 //Actions action;
 	
 	public CartPage(WebDriver driver) {
@@ -141,7 +141,7 @@ WebElement shop;
 		setTextBox(billingSelectZip, UniqueGenerator.getUniqueZipCode());
 		setTextBox(billingSelectPhnNo,UniqueGenerator.getUniquePhnNumber());
 		clickElement(billingAddress);
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		clickElement(secondContinueButton);
 		clickElement(shippingContinueButton);
 		clickElement(paymentContinueButton);
